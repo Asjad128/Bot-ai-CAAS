@@ -1,0 +1,8 @@
+{
+  "name": "BotAI Dashboard",
+  "description": "A professional AI chatbot management platform for training custom RAG models on website content with advanced analytics and customization.",
+  "requestFramePermissions": [
+    "camera",
+    "microphone"
+  ]
+}
