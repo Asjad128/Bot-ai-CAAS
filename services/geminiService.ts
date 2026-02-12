@@ -14,7 +14,7 @@ export class GeminiService {
 
   async createChat(systemInstruction: string) {
     const chat = await this.genAI.chats.create({
-      model: "gemini-2.0-flash-exp",
+      model: "gemini-3-flash",
       config: {
         systemInstruction,
         temperature: 0.7,
@@ -28,7 +28,7 @@ export class GeminiService {
     
     try {
       const response = await this.genAI.models.generateContent({
-        model: "gemini-2.0-flash-exp",
+        model: "gemini-3-flash",
         contents: prompt,
       });
       
